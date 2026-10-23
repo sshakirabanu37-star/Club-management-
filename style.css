@@ -1,0 +1,15 @@
+:root {
+ --ink: #1d2b26;
+ --paper: #f6f1e7;
+ --marigold: #e0a526;
+ --rust: #b5532f;
+}
+.club-card {
+ border: 1px solid var(--line);
+ border-left: 6px solid var(--marigold);
+ display: flex;
+ flex-direction: column;
+}
+@media (min-width: 700px) {
+ .form-grid.two { grid-template-columns: 1fr 1fr; }
+}
